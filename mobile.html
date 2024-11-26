@@ -1,0 +1,254 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+             font-family: 'Roboto', sans-serif;
+         }
+         .bg-overlay {
+             background: rgba(0, 0, 0, 0.6);
+         }
+         .text-shadow {
+             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+         }
+         .background-image {
+          background-image: url('images/2.webp');
+          background-size: cover; /* Adjust to fit the container */
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+ }
+ 
+
+ 
+ 
+   </style>
+ </head>
+ <body class="bg-gray-100">
+    <div class="relative h-1/2 min-h-1/2 flex items-center justify-center background-image">
+        <!-- Logo -->
+        <div class="absolute top-10 left-10">
+          <img alt="Company Logo"  src="images/logo3.jpeg" width="100" />
+        </div>
+      
+        <!-- Main Content -->
+         <div class="text-left ml-12 md:ml-0 md:text-left p-4 absolute w-1/2 left-10 z-10 mt-12 " >
+        
+          <h1 class="text-4x2 font-bold mb-4 md:text-6xl text-gray-300">
+            Mobile App Development
+          </h1>
+          <p class="text-lg mb-6 text-gray-300">
+            Native, cross-platform, hybrid, or PWA — we implement your mobile ideas effectively!
+          
+          </p>
+          <button class="bg-orange-500 text-white py-2 px-6 rounded-full ">
+            <a href="banner.html">
+                Get A FREE CONSULTATION
+        </a>
+          </button>
+          
+        </div>
+      
+        <!-- Menu Button -->
+        <div class="absolute top-10 right-10 z-10"> <!-- Removed md:hidden -->
+          <button id="openButton" class="text-orange-500 text-2xl">
+            <i class="fas fa-bars"></i> <!-- Ensure the icon class is correct -->
+          </button>
+        </div>
+      
+        <!-- Sidebar Menu -->
+        <div id="sidebar" class="absolute top-0 right-0 h-full w-1/4 md:w-1/2 lg:w-1/6 bg-gray-800 bg-opacity-50 p-8 hidden">
+          <div class="flex justify-end">
+            <button id="closeButton" class="text-orange-500 text-2xl">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <div class="mt-10">
+            <h2 class="text-3xl font-bold mb-6">MENU</h2>
+            <ul class="space-y-4">
+              <li>
+                <a class="block text-lg" href="#">About</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Services</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Casestudies</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Resources</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Reviews</a>
+              </li>
+            </ul>
+            <button class="mt-6 bg-orange-500 text-white py-2 px-6 rounded-full">
+              Schedule Consultation
+            </button>
+          </div>
+        </div>
+      </div>
+  <!-- Header Section -->
+ 
+ 
+   <!-- Introduction Section -->
+   <section class="bg-gray-200 py-12">
+    <div class="container mx-auto text-center">
+     <p class="mb-8">
+      We supercharge your business with flexible iOS and Android app development, from sleek designs to successful launches of both simple and intricate apps. Our team meshes perfectly with your vision, guaranteeing project success. As a dynamic and adaptable IT squad, we leverage the latest tech trends and tools to stay ahead of the game. Right now, we’re mastering Flutter alongside Swift, React Native, Ionic, and Java for top-tier cross-platform solutions.
+     </p>
+     <button class="bg-blue-500 text-white py-3 px-6 rounded-full">
+      start your jurney with us
+     </button>
+    </div>
+   </section>
+   <!-- Stats Section -->
+   <section class="bg-gray-200 py-12">
+    <div class="container mx-auto flex justify-center items-center space-x-8">
+     <img alt="Mobile App Screenshots" class="w-1/3" height="400" src="images/download__2_-removebg-preview.png" width="200"/>
+     <div class="grid grid-cols-2 gap-4">
+      <div class="bg-white p-6 rounded-lg shadow-md text-center">
+       <i class="fas fa-star text-yellow-500 text-2xl mb-2">
+       </i>
+       <p>
+        +Years on the market
+       </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md text-center">
+       <i class="fas fa-check text-yellow-500 text-2xl mb-2">
+       </i>
+       <p>
+        450+ successfully completed poject
+       </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md text-center">
+       <i class="fas fa-users text-yellow-500 text-2xl mb-2">
+       </i>
+       <p>
+        300+ customers in 35 cuntries
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Services Section -->
+   <section class="bg-white py-12">
+    <div class="container mx-auto">
+     <h3 class="text-2xl font-bold mb-8">
+      Mobile App Development Expert Services
+     </h3>
+     <div class="flex justify-between">
+      <div class="w-1/2">
+       <div class="bg-gray-200 p-4 mb-4 flex justify-between items-center">
+        <p>
+         Android App Development:
+        </p>
+        <i class="fas fa-plus">
+        </i>
+       </div>
+       <div class="bg-gray-200 p-4 mb-4 flex justify-between items-center">
+        <p>
+         iOS App Development
+        </p>
+        <i class="fas fa-plus">
+        </i>
+       </div>
+       <div class="bg-gray-200 p-4 mb-4 flex justify-between items-center">
+        <p>
+         Hybrid App Development
+        </p>
+        <i class="fas fa-plus">
+        </i>
+       </div>
+       <div class="bg-gray-200 p-4 mb-4 flex justify-between items-center">
+        <p>
+         Mobile App Design
+        </p>
+        <i class="fas fa-plus">
+        </i>
+       </div>
+       <div class="bg-gray-200 p-4 mb-4 flex justify-between items-center">
+        <p>
+         Mobile App Integrations
+        </p>
+        <i class="fas fa-plus">
+        </i>
+       </div>
+      </div>
+      <div class="w-1/2">
+       <img alt="Team working on app development" class="rounded-lg shadow-md" height="300" src="https://storage.googleapis.com/a1aa/image/AO1JuYNU3tokNtfJ1QiXflhvmGU3LBchptvVpVyVcfvXj1WnA.jpg" width="400"/>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Call to Action Section -->
+   <section class="bg-blue-500 text-white text-center py-8">
+    <h4 class="text-xl font-bold mb-4">
+     Seeking a Mobile App Solution?
+    </h4>
+   </section>
+   <!-- Strategy Section -->
+   <section class="bg-gray-200 py-12">
+    <div class="container mx-auto text-center"> <!-- Changed text alignment to center -->
+      <h3 class="text-3xl md:text-4xl font-bold mb-8 text-left"> <!-- Increased text size -->
+        Our Credible Mobile App Development Strategy
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"> <!-- Added items-center for vertical alignment -->
+        <div class="text-left md:ml-12">
+          <p class="text-lg mb-4"> <!-- Increased text size -->
+            <i class="fas fa-check text-orange-500"></i>
+            Ideation &amp; Insight Gathering
+          </p>
+          <p class="text-lg mb-4">
+            <i class="fas fa-check text-orange-500"></i>
+            Experience Design &amp; Prototyping
+          </p>
+          <p class="text-lg mb-4">
+            <i class="fas fa-check text-orange-500"></i>
+            Engineering &amp; System Integration
+          </p>
+          <p class="text-lg mb-4">
+            <i class="fas fa-check text-orange-500"></i>
+            Quality Assurance &amp; Optimization
+          </p>
+          <p class="text-lg mb-4">
+            <i class="fas fa-check text-orange-500"></i>
+            Deployment &amp; Evolution
+          </p>
+        </div>
+        <div>
+          <img
+            alt="Mobile app development strategy"
+            class="rounded-lg shadow-md mx-auto" 
+           
+            height="300"
+            src="https://storage.googleapis.com/a1aa/image/IVCEmd0qIQYYLhwnirYRDNaj1Ig3d2oL9f62zrFH7fZuxarTA.jpg"
+            width="400"
+          />
+        </div>
+      </div>
+      <button class="bg-blue-500 text-white py-3 px-8 rounded-full mt-8 mx-auto block"> <!-- Centered button -->
+        Let's Create Success Together!
+      </button>
+    </div>
+  </section>
+  
+  </main>
+  <script>
+    document.getElementById('openButton').addEventListener('click', function() {
+      document.getElementById('sidebar').classList.remove('hidden');
+    });
+    document.getElementById('closeButton').addEventListener('click', function() {
+      document.getElementById('sidebar').classList.add('hidden');
+    });
+  </script>
+ </body>
+</html>
+
+
+
+
+ 

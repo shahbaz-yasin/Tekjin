@@ -1,0 +1,116 @@
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    body {
+             font-family: 'Roboto', sans-serif;
+         }
+         .bg-overlay {
+             background: rgba(0, 0, 0, 0.6);
+         }
+         .text-shadow {
+             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+         }
+         .background-image {
+   position: relative; /* Allows for positioning of pseudo-element */
+   height: 50%; /* Set the height to half of its parent */
+   overflow: hidden; /* Prevent overflow of child elements */
+ }
+ 
+ .background-image::before {
+   content: ""; /* Required for pseudo-element */
+   background-image: url('images/main.png');
+   background-size: contain; /* Adjust to fit the container */
+   background-position: right;
+   background-repeat: no-repeat;
+   position: absolute; /* Position it absolutely */
+   top: 0; /* Align to the top */
+   left: 0; /* Align to the left */
+   right: 10; /* Stretch to the right */
+   bottom: 0; /* Stretch to the bottom */
+   opacity: 0.5; /* Set desired opacity (0 to 1) */
+   z-index: 0; /* Behind other content */
+ }
+ 
+ 
+   </style>
+</head>
+<body class="bg-black text-white font-sans bg-center ">
+  <div class="relative min-h-screen flex items-center justify-center background-image">
+    <!-- Logo -->
+    <div class="absolute top-10 left-10">
+      <img alt="Company Logo"  src="images/logo3.jpeg" width="100" />
+    </div>
+  
+    <!-- Main Content -->
+     <div class="text-left ml-12 md:ml-0 md:text-center p-4 absolute w-1/2 left-10 z-10 " >
+    
+      <h1 class="text-4x2 font-bold mb-4 md:text-6xl">
+        Transforming
+        <span class="text-orange-500">Visions</span><br>
+        into market-leading software.
+      </h1>
+      <p class="text-lg mb-6">
+        We're a collective of elite developers who've empowered
+        <span class="text-orange-500">
+          1000 +
+        </span>
+        to revolutionize their industries through our innovative, cutting-edge software solutions.
+      </p>
+      <button class="bg-gray-800 text-white py-2 px-6 rounded-full">
+        <a href="banner.html">
+        View projects
+    </a>
+      </button>
+    </div>
+  
+    <!-- Menu Button -->
+    <div class="absolute top-10 right-10 z-10"> <!-- Removed md:hidden -->
+      <button id="openButton" class="text-orange-500 text-2xl">
+        <i class="fas fa-bars"></i> <!-- Ensure the icon class is correct -->
+      </button>
+    </div>
+  
+    <!-- Sidebar Menu -->
+    <div id="sidebar" class="absolute top-0 right-0 h-full w-1/4 md:w-1/2 lg:w-1/6 bg-gray-800 bg-opacity-50 p-8 hidden">
+      <div class="flex justify-end">
+        <button id="closeButton" class="text-orange-500 text-2xl">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="mt-10">
+        <h2 class="text-3xl font-bold mb-6">MENU</h2>
+        <ul class="space-y-4">
+          <li>
+            <a class="block text-lg" href="#">About</a>
+          </li>
+          <li>
+            <a class="block text-lg" href="#">Services</a>
+          </li>
+          <li>
+            <a class="block text-lg" href="#">Casestudies</a>
+          </li>
+          <li>
+            <a class="block text-lg" href="#">Resources</a>
+          </li>
+          <li>
+            <a class="block text-lg" href="#">Reviews</a>
+          </li>
+        </ul>
+        <button class="mt-6 bg-orange-500 text-white py-2 px-6 rounded-full">
+          Schedule Consultation
+        </button>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('openButton').addEventListener('click', function() {
+      document.getElementById('sidebar').classList.remove('hidden');
+    });
+    document.getElementById('closeButton').addEventListener('click', function() {
+      document.getElementById('sidebar').classList.add('hidden');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+             font-family: 'Roboto', sans-serif;
+         }
+         .bg-overlay {
+             background: rgba(0, 0, 0, 0.6);
+         }
+         .text-shadow {
+             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+         }
+         .background-image {
+          background-image: url('images/mobile.webp');
+          background-size: cover; /* Adjust to fit the container */
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+ }
+ 
+
+ 
+ 
+   </style>
+ </head>
+ <body class="bg-gray-800 text-white font-roboto">
+
+    <div class="relative h-1/2 min-h-1/2 flex items-center justify-center background-image">
+        <!-- Logo -->
+        <div class="absolute top-10 left-10">
+          <img alt="Company Logo"  src="images/logo3.jpeg" width="100" />
+        </div>
+      
+        <!-- Main Content -->
+         <div class="text-left ml-12 md:ml-0 md:text-left p-4 absolute w-1/2 left-10 z-10 mt-12 " >
+        
+          <h1 class="text-4x2 font-bold mb-4 md:text-6xl text-gray-300">
+            self-managed cross-functional dedicated teams
+          </h1>
+          <p class="text-lg mb-6 text-gray-300">
+            Native, cross-platform, hybrid, or PWA — we implement your mobile ideas effectively!
+          
+          </p>
+          <button class="bg-teal-500 text-black px-6 py-2 rounded">
+            Recent projects
+           </button>
+           <button class="bg-teal-500 text-black px-6 py-2 rounded">
+            get free estimation
+           </button>
+          
+        </div>
+      
+        <!-- Menu Button -->
+        <div class="absolute top-10 right-10 z-10"> <!-- Removed md:hidden -->
+          <button id="openButton" class="text-orange-500 text-2xl">
+            <i class="fas fa-bars"></i> <!-- Ensure the icon class is correct -->
+          </button>
+        </div>
+      
+        <!-- Sidebar Menu -->
+        <div id="sidebar" class="absolute top-0 right-0 h-full w-1/4 md:w-1/2 lg:w-1/6 bg-gray-800 bg-opacity-50 p-8 hidden">
+          <div class="flex justify-end">
+            <button id="closeButton" class="text-orange-500 text-2xl">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <div class="mt-10">
+            <h2 class="text-3xl font-bold mb-6">MENU</h2>
+            <ul class="space-y-4">
+              <li>
+                <a class="block text-lg" href="#">About</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Services</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Casestudies</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Resources</a>
+              </li>
+              <li>
+                <a class="block text-lg" href="#">Reviews</a>
+              </li>
+            </ul>
+            <button class="mt-6 bg-orange-500 text-white py-2 px-6 rounded-full">
+              Schedule Consultation
+            </button>
+          </div>
+        </div>
+      </div>
+  <section class="bg-gray-400 text-black py-20">
+   <h2 class="text-center text-3xl font-bold mb-10">
+    Engineering services and featured competencies
+   </h2>
+   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-gray-300 p-6 flex items-center justify-between">
+     <div>
+      <h3 class="text-xl font-bold mb-2">
+       Front-end Development
+      </h3>
+     </div>
+     <img alt="Illustration of a person working on a laptop" height="100" src="https://storage.googleapis.com/a1aa/image/56cZIqM534YWPhXReRICXKkqivuaIsWoURn8c9GVF225Xt1JA.jpg" width="150"/>
+    </div>
+    <div class="bg-gray-300 p-6 flex items-center justify-between">
+     <div>
+      <h3 class="text-xl font-bold mb-2">
+       back-end development
+      </h3>
+     </div>
+     <img alt="Illustration of a person working on backend development" height="100" src="https://storage.googleapis.com/a1aa/image/FVYa5bujt14zBtb7llT6AxyS17usD9EbFSu5RqFleHa7Xt1JA.jpg" width="150"/>
+    </div>
+    <div class="bg-gray-300 p-6 flex items-center justify-between">
+     <div>
+      <h3 class="text-xl font-bold mb-2">
+       content Management system integration
+      </h3>
+     </div>
+     <img alt="Illustration of a person working on content management system" height="100" src="https://storage.googleapis.com/a1aa/image/CRm4Ho6A6xZcCx2dc3Cl1LWMeQeQRpVOSXbOt7x044OwvarTA.jpg" width="150"/>
+    </div>
+    <div class="bg-gray-300 p-6 flex items-center justify-between">
+     <div>
+      <h3 class="text-xl font-bold mb-2">
+       E-commerce Features
+      </h3>
+     </div>
+     <img alt="Illustration of a person working on e-commerce features" height="100" src="https://storage.googleapis.com/a1aa/image/5Jgo4saQvVZCFBLNLA5eZOBbvi5gGfTuo0DCy0MgP7eofqtOB.jpg" width="150"/>
+    </div>
+    <div class="bg-gray-300 p-6 flex items-center justify-between">
+     <div>
+      <h3 class="text-xl font-bold mb-2">
+       Responsive Design
+      </h3>
+     </div>
+     <img alt="Illustration of a person working on responsive design" height="100" src="https://storage.googleapis.com/a1aa/image/ckomntMIOyqWAxcgR6mAcEOG8ne1tGFtOdV4z6lzWhC5Xt1JA.jpg" width="150"/>
+    </div>
+   </div>
+  </section>
+  <section class="bg-gray-300 text-black py-20">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-stretch"> <!-- items-stretch aligns items to match height -->
+      <div class="flex-shrink-0 md:w-2/4"> <!-- Adjusted width for image container -->
+        <img
+          alt="Illustration of a pie chart"
+          class="h-full w-full object-cover rounded-lg"
+          src="images/images__12_-removebg-preview.png"
+        />
+      </div>
+      <div class="md:w-4/6 p-6">
+        <h2 class="text-3xl font-bold mb-4">
+          Passion and professionalism
+        </h2>
+        <p class="mb-4">
+          Our team thoroughly explores your business goals and requirements, devising innovative engineering strategies to enhance your online presence.
+        </p>
+        <div class="grid grid-cols-3 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-xl font-bold mb-2">Design and User Experience:</h3>
+            <p class="mb-4">
+              From initial sketches to interactive prototypes, our design process creates a strong foundation.
+            </p>
+            <h3 class="text-xl font-bold mb-2">Quality Assurance</h3>
+            <p class="mb-4">
+              Our goal is to eliminate any potential issues and ensure a flawless user experience that engages your customers effectively.
+            </p>
+            <h3 class="text-xl font-bold mb-2">Maintenance and Support</h3>
+            <p>
+              Our approach blends proactive maintenance with regular updates for peak security and functionality.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Development</h3>
+            <p class="mb-4">
+              Our skilled developers unleash their coding expertise to deliver robust back-end and front-end solutions.
+            </p>
+            <h3 class="text-xl font-bold mb-2">Deployment</h3>
+            <p>
+              We finalize your web project and deploy it according to a meticulously planned deployment strategy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+   <script>
+    document.getElementById('openButton').addEventListener('click', function() {
+      document.getElementById('sidebar').classList.remove('hidden');
+    });
+    document.getElementById('closeButton').addEventListener('click', function() {
+      document.getElementById('sidebar').classList.add('hidden');
+    });
+  </script>
+ </body>
+</html>

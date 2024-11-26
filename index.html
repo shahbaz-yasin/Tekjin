@@ -1,0 +1,520 @@
+<html lang="en">
+
+</html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>
+    TekJin
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="common.css">
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white overflow-x-hidden md:overflow-x-hidden scroll-smooth">
+  <header class="relative">
+    <!-- Menu Button -->
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a href="banner.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="casestudies.html">Casestudies</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="banner.html" class="logo">
+          <img alt="Company Logo" src="images/logo3.png" />
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main class="bg-black py-16">
+    <section class="flex items-center justify-center min-h-screen bg-cover bg-center" style="background-image: url('images/main.png');">
+      <div class="container mx-auto px-4">
+        <div class="text-center p-4" data-aos="fade-up">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight font-sans">
+            TRANSFORMING VISIONS INTO MARKET LEADING SOFTWARE.
+          </h1>
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-200">
+            We're a collective of elite developers who've empowered 1000+ to revolutionize their industries through our
+            innovative, cutting-edge software solutions.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://calendly.com/login"
+              class="text-white bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-orange-300 dark:focus:ring-orange-800 font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 text-center shadow-xl transform hover:scale-105 transition-all duration-200 border-2 border-orange-400 hover:border-orange-300 uppercase tracking-wide">
+              Wanna Talk?
+            </a>
+            <a href="projects.html"
+              class="text-white bg-transparent hover:bg-orange-500 font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 text-center shadow-xl transform hover:scale-105 transition-all duration-200 border-2 border-orange-400 hover:border-orange-300 uppercase tracking-wide">
+              View Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Esteemed Clients Section -->
+    <section class="py-16 px-4">
+      <div class="container mx-auto text-center" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Our Trusted Partners</h2>
+        <div class="overflow-hidden">
+          <div class="flex items-center justify-center animate-marquee space-x-8">
+            <img src="images/etisalat-logo.svg" alt="Microsoft" class="h-16 w-auto">
+            <img src="images/logo-wallbit-fe8a4ef0.svg" alt="Tesla" class="h-16 w-auto">
+            <img src="images/wecover-logo-new.webp" alt="Amazon" class="h-8 w-auto">
+            <img src="images/images.png" alt="IgniteTech Logo" class="h-16 w-auto">
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      @keyframes marquee {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+      }
+      .animate-marquee {
+        display: flex;
+        animation: marquee 20s linear infinite;
+      }
+    </style>
+
+    <!-- The TekJin Paradigm Section -->
+    <section class="py-16 px-4 bg-gray-900">
+      <div class="container mx-auto max-w-4xl" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">The TekJin Paradigm</h2>
+        <p class="text-gray-300 text-lg leading-relaxed text-center">
+          Established in 2010, TekJin is a trendsetter in developing transformative digital products for businesses of all sizes. With a steadfast commitment to reliability, we take pride in crafting and maintaining every app, website, mobile solution, widget, e-commerce tool, and enterprise portal with precision and passion. At TekJin, we believe in our product enduring quality and craftsmanship, ensuring they exceed expectations and stand the test of time.
+        </p>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-12 md:py-16 lg:py-20">
+      <div class="flex flex-col lg:flex-row min-h-[60vh] lg:min-h-[80vh] gap-8">
+        <!-- Left Section (Image) -->
+        <div class="w-full lg:w-1/2 flex items-center justify-center relative min-h-[40vh] lg:min-h-full group overflow-hidden rounded-2xl shadow-2xl"
+          data-aos="fade-right" data-aos-duration="800">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-black via-black to-orange-900 opacity-60 transition-opacity duration-500 group-hover:opacity-40">
+          </div>
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,138,0,0.1),transparent_70%)]"></div>
+          <img alt="Background with smoke effect"
+            class="absolute inset-0 w-full h-full object-cover opacity-30 transform scale-100 group-hover:scale-105 transition-transform duration-700 ease-out filter contrast-125"
+            height="600"
+            src="https://storage.googleapis.com/a1aa/image/coqcx6lUHo7oA595ZZlpvrDEDRfbCHSV1KA5ENu4fKSNeiNnA.jpg"
+            width="500" />
+          <div
+            class="relative z-10 p-8 md:p-10 lg:p-12 text-center lg:text-left transform transition-all duration-500 group-hover:translate-y-[-12px] backdrop-blur-sm bg-black/20 rounded-xl border border-orange-500/20">
+            <h1
+              class="text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-400 to-orange-500 mb-6 tracking-tight animate-gradient">
+              Partner With Us
+            </h1>
+            <p
+              class="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed opacity-0 transform translate-y-4 transition-all duration-700 group-hover:opacity-100 group-hover:translate-y-0 drop-shadow-lg">
+              Deploy a skilled team that covers all project needs and fills skill gaps with <span class="text-orange-400 font-semibold glow-text">TekJin</span>.
+            </p>
+            <p class="text-sm md:text-base text-gray-300 italic font-light">
+              Discover how we can transform your vision into reality
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Section (Cards) -->
+        <div class="w-full lg:w-1/2 flex flex-col justify-center p-4 md:p-6 lg:p-8 space-y-6 md:space-y-8" data-aos="fade-left">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
+            <!-- Card 1 -->
+            <div class="bg-gray-900 p-4 md:p-6 rounded-lg shadow-lg relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+              data-aos="zoom-in" data-aos-delay="100">
+              <div class="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-purple-500/10 animate-pulse"></div>
+              <div
+                class="moving-glow absolute -inset-1 bg-gradient-to-r from-orange-500 to-purple-500 blur opacity-30 group-hover:opacity-50 animate-border-flow">
+              </div>
+              <div class="relative text-center">
+                <img alt="Web development icon" class="mb-3 mx-auto h-16 md:h-20 w-auto" 
+                  src="https://storage.googleapis.com/a1aa/image/nOAwPQek6SSBCqXt095WZf7kNoBgjodzpvK7MPXwsQjMeiNnA.jpg" />
+                <h2 class="text-lg md:text-xl font-bold mb-2 text-white">Web Development</h2>
+                <p class="text-sm md:text-base text-gray-400">
+                  Provide top-tier web development, design, and functionality custom-tailored to elevate your business.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-gray-900 p-4 md:p-6 rounded-lg shadow-lg relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+              data-aos="zoom-in" data-aos-delay="200">
+              <div class="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-purple-500/10 animate-pulse"></div>
+              <div
+                class="moving-glow absolute -inset-1 bg-gradient-to-r from-orange-500 to-purple-500 blur opacity-30 group-hover:opacity-50 animate-border-flow">
+              </div>
+              <div class="relative text-center">
+                <img alt="Digital Transformation icon" class="mb-3 mx-auto h-16 md:h-20 w-auto"
+                  src="https://storage.googleapis.com/a1aa/image/ZjuebXLN6J2YQK9J6LxU6xVkteftJEQMPTGEW1cyednD5FbOB.jpg" />
+                <h2 class="text-lg md:text-xl font-bold mb-2 text-white">Digital Transformation</h2>
+                <p class="text-sm md:text-base text-gray-400">
+                  Revolutionize your business operations with digitization, automation, and accelerated growth.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-gray-900 p-4 md:p-6 rounded-lg shadow-lg relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+              data-aos="zoom-in" data-aos-delay="300">
+              <div class="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-purple-500/10 animate-pulse"></div>
+              <div
+                class="moving-glow absolute -inset-1 bg-gradient-to-r from-orange-500 to-purple-500 blur opacity-30 group-hover:opacity-50 animate-border-flow">
+              </div>
+              <div class="relative text-center">
+                <img alt="Software Architecture icon" class="mb-3 mx-auto h-16 md:h-20 w-auto"
+                  src="https://storage.googleapis.com/a1aa/image/E6MPd5O92qpVJ5im1DAXSsTynZ9e4U0BLAA83DYWzYhFvYzJA.jpg" />
+                <h2 class="text-lg md:text-xl font-bold mb-2 text-white">Software Architecture</h2>
+                <p class="text-sm md:text-base text-gray-400">
+                  Unlock tailored software solutions designed to enhance your business's productivity and efficiency.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-gray-900 p-4 md:p-6 rounded-lg shadow-lg relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+              data-aos="zoom-in" data-aos-delay="400">
+              <div class="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-purple-500/10 animate-pulse"></div>
+              <div
+                class="moving-glow absolute -inset-1 bg-gradient-to-r from-orange-500 to-purple-500 blur opacity-30 group-hover:opacity-50 animate-border-flow">
+              </div>
+              <div class="relative text-center">
+                <img alt="Mobile App Development icon" class="mb-3 mx-auto h-16 md:h-20 w-auto"
+                  src="https://storage.googleapis.com/a1aa/image/eeea3FCnpzLLRIutdK9P4hfNLBg6FPghjrtrkkO4a3e9xL2cC.jpg" />
+                <h2 class="text-lg md:text-xl font-bold mb-2 text-white">Mobile App Development</h2>
+                <p class="text-sm md:text-base text-gray-400">
+                  Elevate your mobile app with expert Android and iOS development services, making it shine in the competitive market.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="bg-gray-900 p-4 md:p-6 rounded-lg shadow-lg relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+              data-aos="zoom-in" data-aos-delay="500">
+              <div class="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-purple-500/10 animate-pulse"></div>
+              <div
+                class="moving-glow absolute -inset-1 bg-gradient-to-r from-orange-500 to-purple-500 blur opacity-30 group-hover:opacity-50 animate-border-flow">
+              </div>
+              <div class="relative text-center">
+                <img alt="Office 365 Solutions icon" class="mb-3 mx-auto h-16 md:h-20 w-auto"
+                  src="images/MS.png" />
+                <h2 class="text-lg md:text-xl font-bold mb-2 text-white">Office 365 Solutions</h2>
+                <p class="text-sm md:text-base text-gray-400">
+                  Boost efficiency and accelerate growth with customized Microsoft Dynamics 365 solutions tailored to your business.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="bg-gray-900 p-4 md:p-6 rounded-lg shadow-lg relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+              data-aos="zoom-in" data-aos-delay="600">
+              <div class="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-purple-500/10 animate-pulse"></div>
+              <div
+                class="moving-glow absolute -inset-1 bg-gradient-to-r from-orange-500 to-purple-500 blur opacity-30 group-hover:opacity-50 animate-border-flow">
+              </div>
+              <div class="relative text-center">
+                <img alt="QA Testing icon" class="mb-3 mx-auto h-16 md:h-20 w-auto"
+                  src="images/Se.png" />
+                <h2 class="text-lg md:text-xl font-bold mb-2 text-white">Q/A Testing & Automation</h2>
+                <p class="text-sm md:text-base text-gray-400">
+                  Enhance your software's reliability with our robust QA testing and automation services.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services Link -->
+          <div class="flex justify-center lg:justify-end mt-6 md:mt-8" data-aos="fade-up">
+            <a class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded-full flex items-center transition duration-300 ease-in-out transform hover:scale-105 text-sm md:text-base"
+              href="services.html">
+              Explore Our Services <i class="fas fa-chevron-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    </section>
+    <section class="bg-gradient-to-br from-gray-900 via-black to-gray-900 py-20 md:mt-40 relative overflow-hidden"
+      style="background-image: url('images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg'); background-size: cover; background-position: center;">
+      
+      <!-- Overlay with gradient -->
+      <div class="absolute inset-0 bg-gradient-to-br from-black/80 via-black/70 to-transparent"></div>
+
+      <div class="container mx-auto px-4 relative z-10">
+        <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
+          What Our Clients Say
+        </h2>
+
+        <div class="carousel relative max-w-4xl mx-auto">
+          <!-- Navigation Arrows -->
+          <button class="absolute -left-4 top-1/2 transform -translate-y-1/2 z-10 bg-orange-500/90 hover:bg-orange-600 text-white p-3 rounded-full shadow-lg transition duration-300 focus:outline-none hover:scale-110" onclick="prevSlide()">
+            <i class="fas fa-chevron-left text-xl"></i>
+          </button>
+          
+          <button class="absolute -right-4 top-1/2 transform -translate-y-1/2 z-10 bg-orange-500/90 hover:bg-orange-600 text-white p-3 rounded-full shadow-lg transition duration-300 focus:outline-none hover:scale-110" onclick="nextSlide()">
+            <i class="fas fa-chevron-right text-xl"></i>
+          </button>
+
+          <div
+            class="carousel-item bg-gray-800/90 backdrop-blur-sm p-10 rounded-3xl shadow-2xl text-center opacity-0 absolute transition-all duration-700 border-2 border-orange-500/50 hover:border-orange-500 neon-glow transform hover:scale-[1.02]"
+            data-index="0">
+            <div class="moving-light"></div>
+            <i class="fas fa-quote-left text-4xl text-orange-500/50 mb-6"></i>
+            <p class="text-xl text-white/90 leading-relaxed">
+              "Tekjin transformed our business operations with their innovative solutions. Their expertise in Microsoft Dynamics 365 
+              helped us streamline processes and achieve remarkable growth. The team's dedication and support were exceptional."
+            </p>
+            <div class="mt-8 flex items-center justify-center space-x-4">
+              <div class="w-16 h-16 rounded-full bg-orange-500/20 flex items-center justify-center">
+                <i class="fas fa-user-circle text-3xl text-orange-500"></i>
+              </div>
+              <div class="text-left">
+                <span class="block font-bold text-xl text-orange-500">Olav Fyldeng</span>
+                <span class="text-white/80">CIO, Plantasjen</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item bg-gray-800/90 backdrop-blur-sm p-10 rounded-3xl shadow-2xl text-center opacity-0 absolute transition-all duration-700 border-2 border-orange-500/50 hover:border-orange-500 neon-glow transform hover:scale-[1.02]"
+            data-index="1">
+            <div class="moving-light"></div>
+            <i class="fas fa-quote-left text-4xl text-orange-500/50 mb-6"></i>
+            <p class="text-xl text-white/90 leading-relaxed">
+              "The QA testing and automation services provided by Tekjin significantly improved our software quality. Their attention 
+              to detail and comprehensive testing approach helped us deliver a flawless product to our customers."
+            </p>
+            <div class="mt-8 flex items-center justify-center space-x-4">
+              <div class="w-16 h-16 rounded-full bg-orange-500/20 flex items-center justify-center">
+                <i class="fas fa-user-circle text-3xl text-orange-500"></i>
+              </div>
+              <div class="text-left">
+                <span class="block font-bold text-xl text-orange-500">Sarah Chen</span>
+                <span class="text-white/80">CTO, TechCorp</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item bg-gray-800/90 backdrop-blur-sm p-10 rounded-3xl shadow-2xl text-center opacity-0 absolute transition-all duration-700 border-2 border-orange-500/50 hover:border-orange-500 neon-glow transform hover:scale-[1.02]"
+            data-index="2">
+            <div class="moving-light"></div>
+            <i class="fas fa-quote-left text-4xl text-orange-500/50 mb-6"></i>
+            <p class="text-xl text-white/90 leading-relaxed">
+              "Working with Tekjin on our digital transformation journey has been incredible. Their cloud solutions and technical 
+              expertise helped us modernize our infrastructure and stay ahead of the competition."
+            </p>
+            <div class="mt-8 flex items-center justify-center space-x-4">
+              <div class="w-16 h-16 rounded-full bg-orange-500/20 flex items-center justify-center">
+                <i class="fas fa-user-circle text-3xl text-orange-500"></i>
+              </div>
+              <div class="text-left">
+                <span class="block font-bold text-xl text-orange-500">John Smith</span>
+                <span class="text-white/80">CEO, Innovate Inc.</span>
+              </div>
+            </div>
+          </div>
+
+        <style>
+          .neon-glow {
+            box-shadow: 0 0 15px rgba(255, 107, 0, 0.3),
+                      0 0 30px rgba(255, 107, 0, 0.2),
+                      0 0 45px rgba(255, 107, 0, 0.1);
+            transition: all 0.3s ease;
+          }
+
+          .neon-glow:hover {
+            box-shadow: 0 0 20px rgba(255, 107, 0, 0.4),
+                      0 0 40px rgba(255, 107, 0, 0.3),
+                      0 0 60px rgba(255, 107, 0, 0.2);
+          }
+
+          .moving-light {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(255, 107, 0, 0.3) 0%, rgba(255, 107, 0, 0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: moveLight 6s linear infinite;
+            filter: blur(3px);
+          }
+
+          @keyframes moveLight {
+            0% {
+              transform: rotate(0deg) translateX(200px) rotate(0deg);
+            }
+
+            100% {
+              transform: rotate(360deg) translateX(200px) rotate(-360deg);
+            }
+          }
+        </style>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const items = document.querySelectorAll('.carousel-item');
+          const dots = document.querySelectorAll('.carousel-dot');
+          let currentIndex = 0;
+          const interval = 10000; // 10 seconds
+
+          function showSlide(index) {
+            items.forEach(item => {
+              item.style.opacity = '0';
+              item.style.zIndex = '0';
+              item.style.transform = 'scale(0.95)';
+            });
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            items[index].style.opacity = '1';
+            items[index].style.zIndex = '1';
+            items[index].style.transform = 'scale(1)';
+            dots[index].classList.add('active');
+          }
+
+          function nextSlide() {
+            currentIndex = (currentIndex + 1) % items.length;
+            showSlide(currentIndex);
+          }
+
+          function prevSlide() {
+            currentIndex = (currentIndex - 1 + items.length) % items.length;
+            showSlide(currentIndex);
+          }
+
+          // Make functions globally available
+          window.nextSlide = nextSlide;
+          window.prevSlide = prevSlide;
+
+          // Initialize first slide
+          showSlide(0);
+
+          // Set up automatic rotation
+          let autoplayInterval = setInterval(nextSlide, interval);
+
+          // Pause autoplay when user interacts with navigation
+          const pauseAutoplay = () => {
+            clearInterval(autoplayInterval);
+            autoplayInterval = setInterval(nextSlide, interval);
+          };
+
+          // Set up dot navigation
+          dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+              currentIndex = index;
+              showSlide(currentIndex);
+              pauseAutoplay();
+            });
+          });
+
+          // Add event listeners for arrow navigation
+          document.querySelector('.carousel').addEventListener('mouseover', () => {
+            clearInterval(autoplayInterval);
+          });
+
+          document.querySelector('.carousel').addEventListener('mouseout', () => {
+            autoplayInterval = setInterval(nextSlide, interval);
+          });
+        });
+      </script>
+
+      <style>
+        .carousel {
+          height: 400px;
+          padding: 0 40px;
+        }
+
+        .carousel-item {
+          top: 0;
+          left: 40px;
+          right: 40px;
+        }
+
+        .carousel-dot.active {
+          background-color: #f97316;
+          transform: scale(1.2);
+        }
+      </style>
+    </section>
+
+    </section>
+    <!-- Consultation Section -->
+    <section class="py-16 bg-black w-full">
+      <div class="w-full px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Left Column (Full Width on Mobile) -->
+        <div class="w-full mb-8" data-aos="fade-right">
+          <h2 class="text-3xl font-bold text-orange-500 mb-4">
+            Book a complimentary consultation with our experts.
+          </h2>
+          <p class="text-lg text-white mb-8">
+            Embark on a journey towards a brighter future, harnessing cutting-edge technologies, expert guidance, and
+            unmatched support to turbocharge your business.
+          </p>
+          <button
+            class="bg-orange-500 text-white py-2 px-6 rounded-full text-lg hover:bg-orange-600 transition duration-300">
+            Schedule a consultation
+          </button>
+        </div>
+
+        <!-- Right Column -->
+        <div class="flex flex-col justify-center items-start space-y-4 p-6 bg-gray-800 rounded-lg w-full" data-aos="fade-left">
+          <div class="text-left text-white w-full">
+            <img src="images/logo3.png" alt="Tekjin Logo" class="h-24 w-auto">
+            <h3 class="text-xl text-orange-500 mt-4">Subscribe for updates</h3>
+            <div class="flex mt-2 w-full max-w-md">
+              <input type="email" placeholder="Enter your email" class="p-2 rounded-l-lg focus:outline-none text-gray-800 w-full">
+              <button class="bg-orange-500 text-white px-4 py-2 rounded-r-lg hover:bg-orange-600 transition duration-300">
+                Submit
+              </button>
+            </div>
+            <p class="mt-4">Contact: <a href="tel:+1234567890" class="text-orange-500 hover:underline">+123-456-7890</a></p>
+            <p>Address: 123 Tekjin St, Innovation City, USA</p>
+            <p>SM Links:
+              <a href="#" class="text-orange-500 hover:underline">LinkedIn</a>,
+              <a href="#" class="text-orange-500 hover:underline">Twitter</a>,
+              <a href="#" class="text-orange-500 hover:underline">Facebook</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+      offset: 100,
+      easing: 'ease-out-cubic'
+    });
+
+    document.getElementById('openButton').onclick = function () {
+      document.getElementById('sidebar').classList.toggle('hidden');
+    };
+    document.getElementById('closeButton').onclick = function () {
+      document.getElementById('sidebar').classList.add('hidden');
+    };
+  </script>
+</body>
+
+</html>
