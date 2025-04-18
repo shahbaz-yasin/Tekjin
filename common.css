@@ -27,9 +27,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #000;
-  color: #fff;
-  opacity: 0.85;
+  background: #fff;
+  color: #333;
   z-index: 1000;
 }
 
@@ -62,14 +61,14 @@
 }
 
 .navbar a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-  color: #117964;
+  color: #555;
 }
 
 @media (max-width: 768px) {
@@ -137,7 +136,7 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #000;
+    background: #fff;
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -217,11 +216,11 @@
     }
 
     .bg-overlay {
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(255, 255, 255, 0.6);
     }
 
     .text-shadow {
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .background-image {
